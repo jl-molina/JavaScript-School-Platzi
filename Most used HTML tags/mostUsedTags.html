@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>FrontEnd Developer Course</title>
+</head>
+<body>
+
+    <div class="shadow m-3 mw-100 p-3">
+        <header>
+            <div class="row">
+                <div class="col text-center p-3">
+                        <h1 class="display-2">Most used HTML tags</h1>
+                </div>
+            </div>
+        </header>    
+        <div class="row text-center">
+            <div class="col-md shadow m-3 p-2">
+                <h2 class="display-4">Layout Tags</h2>
+                <div class="list-group" id="list-tab" role="tablist">
+                    <a class="list-group-item list-group-item-action font active" id="list-header-list" data-toggle="list" href="#list-header" role="tab" aria-controls="header">header</a>
+                    <a class="list-group-item list-group-item-action font" id="list-nav-list" data-toggle="list" href="#list-nav" role="tab" aria-controls="nav">nav</a>
+                    <a class="list-group-item list-group-item-action font" id="list-section-list" data-toggle="list" href="#list-section" role="tab" aria-controls="section">section</a>
+                    <a class="list-group-item list-group-item-action font" id="list-article-list" data-toggle="list" href="#list-article" role="tab" aria-controls="article">article</a>
+                    <a class="list-group-item list-group-item-action font" id="list-aside-list" data-toggle="list" href="#list-aside" role="tab" aria-controls="aside">aside</a>
+                    <a class="list-group-item list-group-item-action font" id="list-footer-list" data-toggle="list" href="#list-footer" role="tab" aria-controls="footer">footer</a>
+                </div>
+            </div>
+            <div class="col-md shadow m-3 p-2">
+                <h2 class="display-4">Link Tags</h2>
+                <div class="list-group" id="list-tab" role="tablist">
+                    <a class="list-group-item list-group-item-action font" id="list-a-list" data-toggle="list" href="#list-a" role="tab" aria-controls="a">a</a>
+                </div>
+            </div>
+            <div class="col-md shadow m-3 p-2">
+                <h2 class="display-4">Text Tags</h2>
+                <div class="list-group" id="list-tab" role="tablist">
+                    <a class="list-group-item list-group-item-action font" id="list-headers-list" data-toggle="list" href="#list-headers" role="tab" aria-controls="headers">h1... h6</a>
+                    <a class="list-group-item list-group-item-action font" id="list-p-list" data-toggle="list" href="#list-p" role="tab" aria-controls="p">p</a>
+                    <a class="list-group-item list-group-item-action font" id="list-span-list" data-toggle="list" href="#list-span" role="tab" aria-controls="span">span</a>
+                </div>
+            </div>
+            <div class="col-md shadow m-3 p-2">
+                <h2 class="display-4">Image and Video Tags</h2>
+                <div class="list-group" id="list-tab" role="tablist">
+                    <a class="list-group-item list-group-item-action font" id="list-img-list" data-toggle="list" href="#list-img" role="tab" aria-controls="img">img</a>
+                    <a class="list-group-item list-group-item-action font" id="list-svg-list" data-toggle="list" href="#list-svg" role="tab" aria-controls="svg">svg</a>
+                    <a class="list-group-item list-group-item-action font" id="list-iframe-list" data-toggle="list" href="#list-iframe" role="tab" aria-controls="iframe">iframe</a>
+                    <a class="list-group-item list-group-item-action font" id="list-video-list" data-toggle="list" href="#list-video" role="tab" aria-controls="video">video</a>
+                </div>
+            </div>
+            <div class="col-md shadow m-3 p-2">
+                <h2 class="display-4">Form Tags</h2>
+                <div class="list-group" id="list-tab" role="tablist">
+                    <a class="list-group-item list-group-item-action font" id="list-form-list" data-toggle="list" href="#list-form" role="tab" aria-controls="form">form</a>
+                    <a class="list-group-item list-group-item-action font" id="list-input-list" data-toggle="list" href="#list-input" role="tab" aria-controls="input">input</a>
+                    <a class="list-group-item list-group-item-action font" id="list-label-list" data-toggle="list" href="#list-label" role="tab" aria-controls="label">label</a>
+                    <a class="list-group-item list-group-item-action font" id="list-button-list" data-toggle="list" href="#list-button" role="tab" aria-controls="button">button</a>
+                </div>
+            </div>
+            <div class="col-md shadow m-3 p-2">
+                <h2 class="display-4">Lists tags</h2>
+                <div class="list-group" id="list-tab" role="tablist">
+                    <a class="list-group-item list-group-item-action font" id="list-li-list" data-toggle="list" href="#list-li" role="tab" aria-controls="li">li</a>
+                    <a class="list-group-item list-group-item-action font" id="list-ul-list" data-toggle="list" href="#list-ul" role="tab" aria-controls="ul">ul</a>
+                    <a class="list-group-item list-group-item-action font" id="list-ol-list" data-toggle="list" href="#list-ol" role="tab" aria-controls="ol">ol</a>
+                </div>
+            </div>
+            
+        </div>
+        <div class="row text-center m-3">
+            <div class="tab-content" id="nav-tabContent">
+                <div class="tab-pane fade font show active" id="list-header" role="tabpanel" aria-labelledby="list-header-list">
+                    The header element represents a container for introductory content or a set of navigational links.
+                </div>
+                <div class="tab-pane fade font" id="list-nav" role="tabpanel" aria-labelledby="list-nav-list">
+                    The nav tag defines a set of navigation links.
+                    Notice that NOT all links of a document should be inside a nav element. The nav element is intended only for major block of navigation links.
+                    Browsers, such as screen readers for disabled users, can use this element to determine whether to omit the initial rendering of this content.
+                </div>
+                <div class="tab-pane fade font" id="list-section" role="tabpanel" aria-labelledby="list-section-list">
+                    The section tag defines a section in a document.
+                </div>
+                <div class="tab-pane fade font" id="list-article" role="tabpanel" aria-labelledby="list-article-list">
+                    The article tag specifies independent, self-contained content.
+                    An article should make sense on its own and it should be possible to distribute it independently from the rest of the site.
+                </div>
+                <div class="tab-pane fade font" id="list-aside" role="tabpanel" aria-labelledby="list-aside-list">
+                    The aside tag defines some content aside from the content it is placed in.
+                    The aside content should be indirectly related to the surrounding content.
+                </div>
+                <div class="tab-pane fade font" id="list-footer" role="tabpanel" aria-labelledby="list-footer-list">
+                    The footer tag defines a footer for a document or section.
+                </div>
+                <div class="tab-pane fade font" id="list-a" role="tabpanel" aria-labelledby="list-a-list">
+                    The a tag defines a hyperlink, which is used to link from one page to another.
+                </div>
+                <div class="tab-pane fade font" id="list-headers" role="tabpanel" aria-labelledby="list-headers-list">
+                    The h1 to h6 tags are used to define HTML headings.
+                    h1 defines the most important heading. h6 defines the least important heading.
+                </div>
+                <div class="tab-pane fade font" id="list-p" role="tabpanel" aria-labelledby="list-p-list">
+                    The p tag defines a paragraph.
+                    Browsers automatically add a single blank line before and after each p element.
+                </div>
+                <div class="tab-pane fade font" id="list-span" role="tabpanel" aria-labelledby="list-span-list">
+                    The span tag is an inline container used to mark up a part of a text, or a part of a document.
+                </div>
+                <div class="tab-pane fade font" id="list-img" role="tabpanel" aria-labelledby="list-img-list">
+                    The img tag is used to embed an image in an HTML page.
+                    Images are not technically inserted into a web page; images are linked to web pages. The img tag creates a holding space for the referenced image.
+                </div>
+                <div class="tab-pane fade font" id="list-svg" role="tabpanel" aria-labelledby="list-svg-list">
+                    The svg tag defines a container for SVG graphics.
+                    SVG has several methods for drawing paths, boxes, circles, text, and graphic images.
+                </div>
+                <div class="tab-pane fade font" id="list-iframe" role="tabpanel" aria-labelledby="list-iframe-list">
+                    The iframe tag specifies an inline frame.
+                    An inline frame is used to embed another document within the current HTML document.
+                </div>
+                <div class="tab-pane fade font" id="list-video" role="tabpanel" aria-labelledby="list-video-list">
+                    The video tag is used to embed video content in a document, such as a movie clip or other video streams.
+                    The video tag contains one or more source tags with different video sources. The browser will choose the first source it supports. 
+                    The text between the video and /video tags will only be displayed in browsers that do not support the video element.
+                </div>
+                <div class="tab-pane fade font" id="list-form" role="tabpanel" aria-labelledby="list-form-list">
+                    The form tag is used to create an HTML form for user input.
+                </div>
+                <div class="tab-pane fade font" id="list-input" role="tabpanel" aria-labelledby="list-input-list">
+                    The input tag specifies an input field where the user can enter data.
+                    The input element is the most important form element.
+                    The input element can be displayed in several ways, depending on the type attribute.
+                </div>
+                <div class="tab-pane fade font" id="list-label" role="tabpanel" aria-labelledby="list-label-list">
+                    The label tag defines a label for several elements.
+                </div>
+                <div class="tab-pane fade font" id="list-button" role="tabpanel" aria-labelledby="list-button-list">
+                    The button tag defines a clickable button.
+                </div>
+                <div class="tab-pane fade font" id="list-li" role="tabpanel" aria-labelledby="list-li-list">
+                    The li tag defines a list item.
+                </div>
+                <div class="tab-pane fade font" id="list-ul" role="tabpanel" aria-labelledby="list-ul-list">
+                    The ul tag defines an unordered (bulleted) list.
+                </div>
+                <div class="tab-pane fade font" id="list-ol" role="tabpanel" aria-labelledby="list-ol-list">
+                    The ol tag defines an ordered list. An ordered list can be numerical or alphabetical.
+                </div>
+              </div>
+        </div>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
